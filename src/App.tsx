@@ -6,7 +6,7 @@ import { useState } from "react";
 import type { Flashcard } from "./type";
 
 function App() {
-  const [flashcards, setFlashcards] = useState<Flashcard[]>(flashcardData);
+  const [flashcards] = useState<Flashcard[]>(flashcardData);
   const [index, setIndex] = useState(0);
 
   const handleNextClick = () => {
