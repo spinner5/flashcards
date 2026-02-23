@@ -11,3 +11,5 @@ ___
 4. install packages `npm run install`
 5. check that the packages installed correclty, you should see node_modules folder appear
 6. run the project `npm run dev`, on default it opens on localhost:5173
+
+Project url [text](https://roadmap.sh/projects/flash-cards)
