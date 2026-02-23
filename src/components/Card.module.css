@@ -1,0 +1,52 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 30px;
+  min-height: 300px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.question,
+.answer {
+  flex: 1;
+  text-align: center;
+}
+
+.question {
+  font-size: 1.2rem;
+  font: 600;
+}
+
+.answer {
+  font-size: 1.5rem;
+  font: bold;
+}
+
+.buttonContainer {
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Buttons */
+
+.nextBtn,
+.prevBtn {
+  background-color: rgb(139, 247, 139);
+}
+
+button {
+  border: none;
+  padding: 4px 12px;
+  cursor: pointer;
+  background-color: rgb(172, 172, 255);
+  font-size: 1.1rem;
+  border-radius: 4px;
+}
+
+.button:hover {
+  background-color: rgb(139, 139, 255);
+}

@@ -1,0 +1,29 @@
+.barContainer {
+  padding: 3 px;
+  gap: 4px;
+  height: 60px;
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  font-weight: bold;
+  padding: 3px;
+  position: relative;
+}
+
+.progressBar {
+  transition: 500ms all;
+  background-color: gray;
+  border-radius: 4px;
+  height: 100%;
+}
+
+.progressPercent {
+  top: 2px;
+  left: 10px;
+  position: absolute;
+}
+
+.progressText {
+  top: 2px;
+  right: 10px;
+  position: absolute;
+}
